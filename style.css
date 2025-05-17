@@ -1,0 +1,71 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.main{
+    flex: 1;
+}
+.heading{
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.card{
+    width: 50%;
+}
+h1{
+    font-size: 5rem;
+}
+.tile-image{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+    
+}
+footer{
+    text-align: right;
+    color:midnightblue
+}
+.Hostels{
+    color: midnightblue;
+}
+
+@media(max-width:680px){
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    div{
+        width: 80%;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .tile-image{
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+    .navigation{
+        font-size: .5rem;
+    }
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+
+}
